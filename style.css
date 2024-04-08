@@ -1,0 +1,58 @@
+body {
+    background-color: black;
+}
+
+.game {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-items: center;
+}
+
+.tabela {
+    width: auto;
+    height: auto;
+}
+
+
+
+.tabela button {
+    width: 40px;
+    height: 40px;
+    border-width: 1px;
+    vertical-align: top;
+    margin-top: 5px;
+    background-color: aliceblue;
+}
+
+.tabela button[disabled] {
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+    vertical-align: top;
+    background-color: rgb(167, 247, 253);
+    color: black;
+}
+
+.numeros {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.numeros button{
+    width: 40px;
+    height: 40px;
+}
+
+.numeros button[disabled] {
+    background-color: rgb(188, 190, 190);
+    color: black;
+}
+
+.numeros {
+    width: 400px;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+}
